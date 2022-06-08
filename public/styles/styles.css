@@ -3,12 +3,29 @@
   box-sizing: border-box;
 }
 
+:root {
+  --nav-color: hsl(308, 100%, 80%);
+  --background-color: hsl(308, 100%, 95%);
+  --footer-color: hsl();
+  --normal-fs: 1.6rem;
+  --smaller-fs: 1.2rem;
+  --large-fs: 2.0rem;
+  --larger-fs: 2.4rem;
+}
+
 body {
   margin: 0;
   height: 100%;
+  background-color: var(--background-color);
 }
 
 html {
   font-size: 62.5%;
 }
 /* --------------> */
+/* Nav Styling --------------> */
+.navbar {
+  background-color: var(--nav-color);
+  width: 100%;
+  min-height: 10rem;
+}
