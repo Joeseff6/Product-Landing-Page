@@ -41,3 +41,22 @@ html {
   max-width: 12rem;
   aspect-ratio: 4/3;
 }
+
+.search-container {
+  width: clamp(20rem, 50%, 35rem);
+  margin: 1rem 1rem 1rem auto;
+  border: black 5px solid;
+  text-align: end;
+}
+
+.search-label {
+  display: block;
+}
+
+.fa-magnifying-glass {
+  font-size: var(--large-fs);
+}
+
+.search-bar {
+  width: 75%;
+}
