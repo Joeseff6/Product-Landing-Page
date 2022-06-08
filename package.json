@@ -1,0 +1,20 @@
+{
+  "name": "product-landing-page",
+  "version": "1.0.0",
+  "description": "A simple responsive product landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joeseff6/Product-Landing-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joeseff6/Product-Landing-Page/issues"
+  },
+  "homepage": "https://github.com/Joeseff6/Product-Landing-Page#readme"
+}
