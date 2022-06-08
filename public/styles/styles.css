@@ -30,6 +30,7 @@ html {
   justify-content: space-between;
 }
 
+/* --------------> */
 /* Nav Styling --------------> */
 .navbar {
   background-color: var(--nav-color);
@@ -41,6 +42,9 @@ html {
   max-width: 12rem;
   aspect-ratio: 4/3;
 }
+
+/* --------------> */
+/* Search Styling --------------> */
 
 .search-container {
   width: clamp(20rem, 50%, 35rem);
@@ -60,3 +64,4 @@ html {
 .search-bar {
   width: 75%;
 }
+/* --------------> */
