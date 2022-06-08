@@ -34,10 +34,10 @@ html {
 .navbar {
   background-color: var(--nav-color);
   width: 100%;
-  min-height: 10rem;
+  min-height: max-content;
 }
 
 .navbar-image {
-  max-width: 15rem;
+  max-width: 12rem;
   aspect-ratio: 4/3;
 }
