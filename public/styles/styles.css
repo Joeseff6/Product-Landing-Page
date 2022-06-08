@@ -23,6 +23,13 @@ html {
   font-size: 62.5%;
 }
 /* --------------> */
+/* Layout Styling --------------> */
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* Nav Styling --------------> */
 .navbar {
   background-color: var(--nav-color);
