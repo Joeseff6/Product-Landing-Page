@@ -29,3 +29,8 @@ html {
   width: 100%;
   min-height: 10rem;
 }
+
+.navbar-image {
+  max-width: 15rem;
+  aspect-ratio: 4/3;
+}
