@@ -11,6 +11,7 @@
   --smaller-fs: 1.2rem;
   --large-fs: 2.0rem;
   --larger-fs: 2.4rem;
+  --transform-scale: 1.10;
 }
 
 
@@ -20,7 +21,6 @@
 * {
   font-size: var(--larger-fs);
 }
-/* --------------> */
 
 body {
   margin: 0;
@@ -31,6 +31,15 @@ body {
 html {
   font-size: 62.5%;
 }
+
+a, .hero-image {
+  transition: transform 0.5s;
+}
+
+.hero-image:hover, a:hover {
+  transform: scale(var(--transform-scale));
+}
+
 /* --------------> */
 /* Layout Styling --------------> */
 .flex {
@@ -92,11 +101,6 @@ html {
   display: block;
   margin: auto;
   border: var(--nav-color) 2rem double;
-  transition: transform 0.5s;
-}
-
-.hero-image:hover {
-  transform: scale(1.10);
 }
 
 /* --------------> */
@@ -111,18 +115,20 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem
+  gap: 1rem;
 }
 
 .membership-box {
   border: black 2px solid;
-  flex-basis: 30%;
+  flex-basis: 35%;
   min-height: 30rem;
+  max-width: 30rem;
+  margin: 1rem 1rem;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   .memberships-container {
-    flex-flow: column wrap;
+    flex-direction: column;
 
   }
 
