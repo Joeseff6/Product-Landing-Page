@@ -33,10 +33,9 @@ html {
 }
 /* --------------> */
 /* Layout Styling --------------> */
-.flex-space-between {
+.flex {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center;;
 }
 
 /* --------------> */
@@ -54,8 +53,13 @@ html {
 
 .navbar-links-container {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin-right: 1rem;
+  margin-left: auto;
+}
+
+.navbar-heading {
+  text-align: center;
 }
 
 /* --------------> */
