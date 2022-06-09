@@ -126,6 +126,10 @@ a, .hero-image {
   margin: 1rem 1rem;
 }
 
+.price::before {
+  content: "$";
+}
+
 @media screen and (max-width: 775px) {
   .memberships-container {
     flex-direction: column;
