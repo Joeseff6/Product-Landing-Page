@@ -54,7 +54,7 @@ html {
 
 .navbar-links-container {
   display: flex;
-  column-gap: 1rem;
+  gap: 1rem;
   margin-right: 1rem;
 }
 
@@ -93,4 +93,36 @@ html {
 
 .hero-image:hover {
   transform: scale(1.10);
+}
+
+/* --------------> */
+/* Features Section Styling --------------> */
+
+/* TODO: Add stylings to feature section */
+
+/* --------------> */
+/* Members Section Styling --------------> */
+
+.memberships-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+
+.membership-box {
+  border: black 2px solid;
+  flex-basis: 30%;
+  min-height: 30rem;
+}
+
+@media screen and (max-width: 750px) {
+  .memberships-container {
+    flex-flow: column wrap;
+
+  }
+
+  .membership-box {
+    min-width: 30rem;
+  }
 }
