@@ -4,16 +4,14 @@
 }
 
 :root {
-  --nav-color: hsl(308, 100%, 70%);
-  --background-color: hsl(308, 100%, 95%);
-  --footer-color: hsl();
+  --nav-color: hsl(308, 100%, 59%);
+  --background-color: hsl(310, 100%, 98%);
   --normal-fs: 1.6rem;
   --smaller-fs: 1.2rem;
   --large-fs: 2.0rem;
   --larger-fs: 2.4rem;
   --transform-scale: 1.10;
 }
-
 
 /* TODO: Delete this font size after development.
   Development font-size. DELETE!! */
@@ -121,7 +119,6 @@ a, .hero-image {
 .membership-box {
   border: black 2px solid;
   flex-basis: 35%;
-  min-height: 30rem;
   max-width: 30rem;
   margin: 1rem 1rem;
 }
@@ -129,6 +126,18 @@ a, .hero-image {
 .price::before {
   content: "$";
 }
+
+/* --------------> */
+/* Footer Styling --------------> */
+footer {
+  width: 100%;
+  background-color: var(--nav-color);
+  min-height: 10rem;
+}
+
+
+
+/* --------------> */
 
 @media screen and (max-width: 775px) {
   .memberships-container {
