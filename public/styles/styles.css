@@ -13,6 +13,15 @@
   --larger-fs: 2.4rem;
 }
 
+
+/* TODO: Delete this font size after development.
+  Development font-size. DELETE!! */
+  
+* {
+  font-size: var(--larger-fs);
+}
+/* --------------> */
+
 body {
   margin: 0;
   height: 100%;
