@@ -70,3 +70,18 @@ html {
   width: 75%;
 }
 /* --------------> */
+/* Hero Section Styling --------------> */
+
+.hero-image {
+  width: clamp(20rem, 25%, 30rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: var(--nav-color) 2rem double;
+  transition: transform 0.5s;
+}
+
+.hero-image:hover {
+  transform: scale(1.10);
+}
