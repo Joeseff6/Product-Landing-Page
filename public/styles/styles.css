@@ -4,7 +4,7 @@
 }
 
 :root {
-  --nav-color: hsl(308, 100%, 80%);
+  --nav-color: hsl(308, 100%, 70%);
   --background-color: hsl(308, 100%, 95%);
   --footer-color: hsl();
   --normal-fs: 1.6rem;
@@ -43,13 +43,18 @@ html {
   aspect-ratio: 4/3;
 }
 
+.navbar-links-container {
+  display: flex;
+  column-gap: 1rem;
+  margin-right: 1rem;
+}
+
 /* --------------> */
 /* Search Styling --------------> */
 
 .search-container {
   width: clamp(20rem, 50%, 35rem);
   margin: 1rem 1rem 1rem auto;
-  border: black 5px solid;
   text-align: end;
 }
 
