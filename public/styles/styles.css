@@ -28,6 +28,8 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: clamp(var(--normal-fs), 5vw, var(--xl-fs));
+  font-family: 'Exo', sans-serif;
+
 }
 
 p {
@@ -75,7 +77,6 @@ a, .hero-image {
 
 .navbar-heading {
   text-align: center;
-  font-family: 'Exo', sans-serif;
 }
 
 .navbar-links-container {
