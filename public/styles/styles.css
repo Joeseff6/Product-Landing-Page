@@ -65,6 +65,7 @@ a, .hero-image {
   background-color: var(--nav-color);
   width: 100%;
   min-height: max-content;
+  color: white;
 }
 
 .navbar-image {
@@ -75,7 +76,6 @@ a, .hero-image {
 .navbar-heading {
   text-align: center;
   font-family: 'Exo', sans-serif;
-  color: white;
 }
 
 .navbar-links-container {
@@ -86,7 +86,6 @@ a, .hero-image {
 }
 
 .navbar-link {
-  color: white;
   font-weight: bold;
   letter-spacing: 0.75px;
 }
@@ -121,13 +120,25 @@ a, .hero-image {
 /* --------------> */
 /* Hero Section Styling --------------> */
 
+.hero-section {
+  margin: 2rem 0;
+}
+
 .hero-image {
   width: clamp(20rem, 25%, 30rem);
   aspect-ratio: 1;
   border-radius: 50%;
   display: block;
-  margin: auto;
+  margin: 2rem auto;
   border: var(--nav-color) 2rem double;
+}
+
+.hero-textbox {
+  text-align: center;
+}
+
+.hero-textbox > * {
+  margin: 1rem;
 }
 
 /* --------------> */
@@ -165,6 +176,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  color: white;
 }
 
 footer > * {
