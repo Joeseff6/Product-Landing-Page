@@ -98,21 +98,25 @@ a, .hero-image {
 
 .search-container {
   width: clamp(20rem, 50%, 35rem);
-  margin: 1rem 1rem 1rem auto;
+  margin: 2rem 2rem 2rem auto;
   text-align: end;
 }
 
 .search-label {
   display: block;
-}
-
-.fa-magnifying-glass {
-  font-size: var(--large-fs);
+  font-size: var(--small-fs);
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: hsl(0, 0%, 25%);
 }
 
 .search-bar {
   width: 75%;
+  border-radius: 5px;
+  border: hsl(308, 95%, 80%) 2px solid;
+  min-height: 3rem;
 }
+
 /* --------------> */
 /* Hero Section Styling --------------> */
 
