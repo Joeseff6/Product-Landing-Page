@@ -147,7 +147,20 @@ a, .hero-image {
 /* --------------> */
 /* Features Section Styling --------------> */
 
-/* TODO: Add stylings to feature section */
+.features-section {
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-list-item {
+  font-size: clamp(var(--normal-fs), 2vw, var(--larger-fs));
+  font-style: italic;
+  margin: 3rem 0;
+}
 
 /* --------------> */
 /* Members Section Styling --------------> */
