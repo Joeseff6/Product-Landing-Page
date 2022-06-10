@@ -1,6 +1,7 @@
 /* Global Styling --------------> */
 *, *::before, *::after {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 :root {
@@ -14,7 +15,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 0 10rem 0;
   height: 100%;
   background-color: var(--background-color);
 }
@@ -27,8 +28,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: var(--larger-fs);
 }
 
-.navbar-link {
+p {
   font-size: var(--normal-fs);
+}
+
+a {
+  font-size: var(--smaller-fs);
 }
 
 a, .hero-image {
@@ -65,6 +70,12 @@ a, .hero-image {
   aspect-ratio: 4/3;
 }
 
+.navbar-heading {
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  color: white;
+}
+
 .navbar-links-container {
   display: flex;
   gap: 2rem;
@@ -72,9 +83,13 @@ a, .hero-image {
   margin-left: auto;
 }
 
-.navbar-heading {
-  text-align: center;
+.navbar-link {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.75px;
 }
+
+
 
 /* --------------> */
 /* Search Styling --------------> */
@@ -137,9 +152,12 @@ a, .hero-image {
 /* --------------> */
 /* Footer Styling --------------> */
 footer {
-  width: 100%;
   background-color: var(--nav-color);
   padding: 1.5rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 footer > * {
@@ -154,7 +172,6 @@ footer > * {
 @media screen and (max-width: 775px) {
   .memberships-container {
     flex-direction: column;
-
   }
 
   .membership-box {
