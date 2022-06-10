@@ -40,11 +40,11 @@ a {
   font-size: clamp(var(--smaller-fs), 2vw, var(--normal-fs));
 }
 
-a, .hero-image {
+a, .hero-image, .features-list-item {
   transition: transform 0.5s;
 }
 
-.hero-image:hover, a:hover {
+.hero-image:hover, a:hover, .features-list-item:hover {
   transform: scale(var(--transform-scale));
 }
 
@@ -154,6 +154,9 @@ a, .hero-image {
 
 .features-list {
   list-style: none;
+  padding: 0;
+  max-width: 80%;
+  margin: auto;
 }
 
 .features-list-item {
