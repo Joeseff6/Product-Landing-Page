@@ -6,18 +6,11 @@
 :root {
   --nav-color: hsl(308, 100%, 59%);
   --background-color: hsl(310, 100%, 98%);
-  --normal-fs: 1.6rem;
-  --smaller-fs: 1.2rem;
-  --large-fs: 2.0rem;
-  --larger-fs: 2.4rem;
+  --normal-fs: 2rem;
+  --smaller-fs: 1.8rem;
+  --large-fs: 2.4rem;
+  --larger-fs: 3rem;
   --transform-scale: 1.10;
-}
-
-/* TODO: Delete this font size after development.
-  Development font-size. DELETE!! */
-  
-* {
-  font-size: var(--larger-fs);
 }
 
 body {
@@ -28,6 +21,14 @@ body {
 
 html {
   font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: var(--larger-fs);
+}
+
+.navbar-link {
+  font-size: var(--normal-fs);
 }
 
 a, .hero-image {
