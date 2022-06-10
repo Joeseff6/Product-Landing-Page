@@ -123,6 +123,8 @@ a, .hero-image {
 
 .hero-section {
   margin: 2rem 0;
+  padding: 2rem;
+  background: radial-gradient(circle at center, white, var(--nav-color));
 }
 
 .hero-image {
