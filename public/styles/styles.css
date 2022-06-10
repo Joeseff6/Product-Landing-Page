@@ -7,10 +7,12 @@
 :root {
   --nav-color: hsl(308, 100%, 59%);
   --background-color: hsl(310, 100%, 98%);
+  --smaller-fs: 1.4rem;
+  --small-fs: 1.8rem;
   --normal-fs: 2rem;
-  --smaller-fs: 1.8rem;
   --large-fs: 2.4rem;
   --larger-fs: 3rem;
+  --xl-fs: 3.4rem;
   --transform-scale: 1.10;
 }
 
@@ -25,15 +27,15 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: var(--larger-fs);
+  font-size: clamp(var(--normal-fs), 5vw, var(--xl-fs));
 }
 
 p {
-  font-size: var(--normal-fs);
+  font-size: clamp(var(--smaller-fs), 3vw, var(--large-fs));
 }
 
 a {
-  font-size: var(--smaller-fs);
+  font-size: clamp(var(--smaller-fs), 2vw, var(--normal-fs));
 }
 
 a, .hero-image {
@@ -78,7 +80,7 @@ a, .hero-image {
 
 .navbar-links-container {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   margin-right: 1rem;
   margin-left: auto;
 }
