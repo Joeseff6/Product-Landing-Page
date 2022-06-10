@@ -45,6 +45,12 @@ a, .hero-image {
   align-items: center;;
 }
 
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
 /* --------------> */
 /* Nav Styling --------------> */
 .navbar {
@@ -132,7 +138,12 @@ a, .hero-image {
 footer {
   width: 100%;
   background-color: var(--nav-color);
-  min-height: 10rem;
+  padding: 1.5rem 0;
+}
+
+footer > * {
+  margin: 0;
+  padding: 0;
 }
 
 
