@@ -184,7 +184,7 @@ a, .hero-image, .features-list-item {
 
 .membership-box {
   display: grid;
-  grid-template-rows: repeat(5, minmax(2rem,5rem));
+  grid-template-rows: repeat(5, minmax(2rem,6rem));
   place-items: center;
   border: black 2px solid;
   flex-basis: 35%;
