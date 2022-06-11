@@ -28,10 +28,6 @@ html {
   scroll-padding-top: 2rem;
 }
 
-header, .hero-textbox, .members-textbox {
-  text-align: center;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-size: clamp(var(--large-fs), 3vw, var(--xl-fs));
   font-family: 'Exo', sans-serif;
@@ -77,6 +73,10 @@ a {
 .gradient-background {
   background: radial-gradient(circle at center, white, var(--highlight-color));
   box-shadow: 2px 5px 5px hsl(297, 26%, 28%);
+}
+
+.center-text {
+  text-align: center;
 }
 
 /* --------------> */
@@ -161,7 +161,6 @@ a {
 
 .features-section {
   margin: 5rem 0;
-  text-align: center;
 }
 
 .features-list {
@@ -195,7 +194,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  text-align: center;
   padding: 3rem;
 }
 
