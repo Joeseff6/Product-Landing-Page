@@ -17,7 +17,7 @@
 }
 
 body {
-  margin: 0 0 10rem 0;
+  margin: 0 0 20rem 0;
   height: 100%;
   background-color: var(--background-color);
 }
@@ -31,7 +31,7 @@ header, .hero-textbox, .members-textbox {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: clamp(var(--normal-fs), 5vw, var(--xl-fs));
+  font-size: clamp(var(--large-fs), 3vw, var(--xl-fs));
   font-family: 'Exo', sans-serif;
 
 }
@@ -68,6 +68,11 @@ a, .hero-image, .features-list-item {
 .divider {
   width: 80%;
   border-color: var(--nav-color);
+}
+
+.gradient-background {
+  background: radial-gradient(circle at center, white, var(--nav-color));
+  box-shadow: 2px 5px 5px hsl(297, 26%, 28%);
 }
 
 /* --------------> */
@@ -129,7 +134,6 @@ a, .hero-image, .features-list-item {
 .hero-section {
   margin: 2rem 0;
   padding: 2rem;
-  background: radial-gradient(circle at center, white, var(--nav-color));
 }
 
 .hero-image {
@@ -173,14 +177,33 @@ a, .hero-image, .features-list-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+  text-align: center;
+  padding: 3rem;
 }
 
 .membership-box {
+  display: grid;
+  grid-template-rows: repeat(5, minmax(2rem,5rem));
+  place-items: center;
   border: black 2px solid;
   flex-basis: 35%;
   max-width: 30rem;
-  margin: 1rem 1rem;
+  height: 40rem;
+  background-color: var(--background-color);
+}
+
+.membership-list {
+  padding: 0;
+  grid-row: 4;
+}
+
+.membership-list-item {
+  list-style: none;
+}
+
+.subscription-btn {
+  grid-row: 5;
 }
 
 .price::before {
@@ -206,7 +229,7 @@ footer > * {
 
 /* --------------> */
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 850px) {
   .memberships-container {
     flex-direction: column;
   }
