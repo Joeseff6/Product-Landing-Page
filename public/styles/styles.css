@@ -225,7 +225,14 @@ a {
 .subscription-btn {
   padding: 1rem;
   border-radius: 5px;
-  background-color: aqua;
+}
+
+.subscription-btn:hover {
+  background: radial-gradient(circle at center, white, hsl(300, 75%, 75%));
+}
+
+.subscription-btn:visited {
+  color: black;
 }
 
 /* --------------> */
