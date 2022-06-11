@@ -204,7 +204,7 @@ a {
 
 .price {
   font-style: italic;
-  font-size: var(--normal-fs);
+  font-size: var(--large-fs);
   color: hsl(308, 100%, 40%);
 }
 
