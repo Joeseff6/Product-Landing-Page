@@ -254,6 +254,45 @@ a {
 }
 
 /* --------------> */
+/* Email Subscription Styling --------------> */
+
+.email-sub-section {
+  max-width: 100ch;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.email-sub-heading {
+  margin-bottom: 2rem;
+}
+
+.sub-text {
+  font-size: var(--small-fs);
+}
+
+.sub-label {
+  display: block;
+  font-size: var(--small-fs);
+  margin-bottom: 1rem;
+}
+
+.sub-input {
+  display: block;
+  border-radius: 5px;
+  font-size: var(--small-fs);
+  width: clamp(10rem, 95%, 40rem);
+  border: hsl(308, 95%, 80%) 2px solid;
+  margin: 1rem auto;
+}
+
+.email-submit-btn {
+  padding: 0.5rem 3rem;
+  font-size: var(--smaller-fs);
+  border: none;
+  border-radius: 5px;
+}
+
+/* --------------> */
 /* Footer Styling --------------> */
 footer {
   background-color: var(--highlight-color);
