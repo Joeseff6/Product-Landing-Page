@@ -52,6 +52,10 @@ a {
   transform: scale(var(--transform-scale));
 }
 
+.members-text, .benefits-text {
+  font-size: clamp(var(--smaller-fs), 2vw, var(--large-fs));
+}
+
 /* --------------> */
 /* Layout Styling --------------> */
 .flex {
@@ -77,6 +81,10 @@ a {
 
 .center-text {
   text-align: center;
+}
+
+.benefits-section, .features-section {
+  margin: 5rem 0;
 }
 
 /* --------------> */
@@ -159,10 +167,6 @@ a {
 /* --------------> */
 /* Features Section Styling --------------> */
 
-.features-section {
-  margin: 5rem 0;
-}
-
 .features-list {
   list-style: none;
   padding: 0;
@@ -183,10 +187,6 @@ a {
   max-width: 125ch;
   padding: 0 2rem;
   margin: auto;
-}
-
-.members-text {
-  font-size: clamp(var(--smaller-fs), 2vw, var(--large-fs));
 }
 
 .memberships-container {
@@ -238,6 +238,19 @@ a {
 
 .subscription-btn:visited {
   color: black;
+}
+
+/* --------------> */
+/* Benefits Section Styling --------------> */
+
+.benefits-textbox {
+  padding: 0 10rem;
+}
+
+.benefits-video {
+  width: clamp(300px, 60%, 700px);
+  min-height: 350px;
+  border-radius: 5px;
 }
 
 /* --------------> */
