@@ -173,6 +173,16 @@ a {
 /* --------------> */
 /* Members Section Styling --------------> */
 
+.members-textbox {
+  max-width: 125ch;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+.members-text {
+  font-size: clamp(var(--smaller-fs), 2vw, var(--large-fs));
+}
+
 .memberships-container {
   display: flex;
   justify-content: center;
