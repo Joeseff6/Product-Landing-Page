@@ -24,6 +24,8 @@ body {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
 }
 
 header, .hero-textbox, .members-textbox {
@@ -43,6 +45,7 @@ p {
 a {
   font-size: clamp(var(--smaller-fs), 2vw, var(--normal-fs));
   text-decoration: none;
+  color: unset;
 }
 
 .scale-on-hover {
@@ -101,6 +104,10 @@ a {
 .navbar-link {
   font-weight: bold;
   letter-spacing: 0.75px;
+}
+
+.navbar-link:visited {
+  color: white;
 }
 
 /* --------------> */
