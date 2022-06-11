@@ -184,7 +184,7 @@ a {
 
 .membership-box {
   display: grid;
-  grid-template-rows: repeat(5, minmax(2rem,6rem));
+  grid-template-rows: repeat(4, minmax(2rem,7rem));
   place-items: center;
   border: black 2px solid;
   flex-basis: 35%;
@@ -195,20 +195,16 @@ a {
 
 .price {
   font-style: italic;
-  font-size: var(--small-fs);
+  font-size: var(--normal-fs);
+  color: hsl(308, 100%, 40%);
 }
 
 .membership-list {
   padding: 0;
-  grid-row: 4;
 }
 
 .membership-list-item {
   list-style: none;
-}
-
-.subscription-btn {
-  grid-row: 5;
 }
 
 .price::before {
