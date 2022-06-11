@@ -44,11 +44,11 @@ a {
   font-size: clamp(var(--smaller-fs), 2vw, var(--normal-fs));
 }
 
-a, .hero-image, .features-list-item {
+.scale-on-hover {
   transition: transform 0.5s;
 }
 
-.hero-image:hover, a:hover, .features-list-item:hover {
+.scale-on-hover:hover {
   transform: scale(var(--transform-scale));
 }
 
@@ -191,6 +191,11 @@ a, .hero-image, .features-list-item {
   max-width: 30rem;
   min-height: max-content;
   background-color: var(--background-color);
+}
+
+.price {
+  font-style: italic;
+  font-size: var(--small-fs);
 }
 
 .membership-list {
