@@ -114,7 +114,7 @@ a {
 
 .search-label {
   display: block;
-  font-size: var(--small-fs);
+  font-size: clamp(var(--smaller-fs), 2vw, var(--normal-fs));
   font-style: italic;
   margin-bottom: 1rem;
   color: hsl(0, 0%, 25%);
