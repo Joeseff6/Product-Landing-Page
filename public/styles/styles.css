@@ -5,7 +5,7 @@
 }
 
 :root {
-  --nav-color: hsl(308, 100%, 59%);
+  --highlight-color: hsl(308, 100%, 59%);
   --background-color: hsl(310, 100%, 98%);
   --smaller-fs: 1.4rem;
   --small-fs: 1.8rem;
@@ -42,6 +42,7 @@ p {
 
 a {
   font-size: clamp(var(--smaller-fs), 2vw, var(--normal-fs));
+  text-decoration: none;
 }
 
 .scale-on-hover {
@@ -67,18 +68,18 @@ a {
 
 .divider {
   width: 80%;
-  border-color: var(--nav-color);
+  border-color: var(--highlight-color);
 }
 
 .gradient-background {
-  background: radial-gradient(circle at center, white, var(--nav-color));
+  background: radial-gradient(circle at center, white, var(--highlight-color));
   box-shadow: 2px 5px 5px hsl(297, 26%, 28%);
 }
 
 /* --------------> */
 /* Nav Styling --------------> */
 .navbar {
-  background-color: var(--nav-color);
+  background-color: var(--highlight-color);
   width: 100%;
   min-height: max-content;
   color: white;
@@ -141,7 +142,7 @@ a {
   border-radius: 50%;
   display: block;
   margin: 2rem auto;
-  border: var(--nav-color) 2rem double;
+  border: var(--highlight-color) 2rem double;
 }
 
 .hero-textbox > * {
@@ -221,10 +222,16 @@ a {
   content: "$";
 }
 
+.subscription-btn {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
 /* --------------> */
 /* Footer Styling --------------> */
 footer {
-  background-color: var(--nav-color);
+  background-color: var(--highlight-color);
   padding: 1.5rem 0;
   position: fixed;
   bottom: 0;
