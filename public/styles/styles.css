@@ -65,6 +65,11 @@ a, .hero-image, .features-list-item {
   align-items: center;
 }
 
+.divider {
+  width: 80%;
+  border-color: var(--nav-color);
+}
+
 /* --------------> */
 /* Nav Styling --------------> */
 .navbar {
