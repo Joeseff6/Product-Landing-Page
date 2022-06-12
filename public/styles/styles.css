@@ -340,6 +340,7 @@ footer > * {
 
   .navbar-links-container {
     margin: 0;
+    padding: 0 1rem;
   }
 
   .memberships-container {
@@ -348,5 +349,9 @@ footer > * {
 
   .membership-box {
     min-width: 30rem;
+  }
+
+  .attributions-link {
+    font-size: 10px;
   }
 }
