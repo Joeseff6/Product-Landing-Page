@@ -61,6 +61,10 @@ a {
   font-size: clamp(var(--smaller-fs), 2vw, var(--large-fs));
 }
 
+.subscription-btn:hover, .email-submit-btn:hover {
+  background: radial-gradient(circle at center, white, hsl(300, 75%, 75%));
+}
+
 /* --------------> */
 /* Layout Styling --------------> */
 .flex {
@@ -242,10 +246,6 @@ a {
   border-radius: 5px;
 }
 
-.subscription-btn:hover {
-  background: radial-gradient(circle at center, white, hsl(300, 75%, 75%));
-}
-
 .subscription-btn:visited {
   color: black;
 }
@@ -300,6 +300,7 @@ a {
   font-size: var(--smaller-fs);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* --------------> */
