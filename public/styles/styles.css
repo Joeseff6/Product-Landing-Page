@@ -325,6 +325,23 @@ footer > * {
 /* --------------> */
 
 @media screen and (max-width: 850px) {
+  body {
+    margin-top: 15rem;
+  }
+
+  html {
+    scroll-padding-top: 15rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .navbar-links-container {
+    margin: 0;
+  }
+
   .memberships-container {
     flex-direction: column;
   }
