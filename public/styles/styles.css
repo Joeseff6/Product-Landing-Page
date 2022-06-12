@@ -17,7 +17,7 @@
 }
 
 body {
-  margin: 0 0 10rem 0;
+  margin: 10rem 0;
   height: 100%;
   background-color: var(--background-color);
 }
@@ -25,7 +25,12 @@ body {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
+  scroll-padding-top: 12rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,6 +104,11 @@ a {
 .navbar-image {
   max-width: 12rem;
   aspect-ratio: 4/3;
+}
+
+.home-link {
+  font-size: unset;
+  font-family: inherit;
 }
 
 .navbar-links-container {
