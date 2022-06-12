@@ -358,3 +358,10 @@ footer > * {
     font-size: 10px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .search-container {
+    width: unset;
+  }
+}
+
